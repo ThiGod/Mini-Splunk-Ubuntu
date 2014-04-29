@@ -1,0 +1,52 @@
+[2014-04-28 20:18:10,828][INFO ][node                     ] [Junta] version[1.1.1], pid[4413], build[f1585f0/2014-04-16T14:27:12Z]
+[2014-04-28 20:18:10,831][INFO ][node                     ] [Junta] initializing ...
+[2014-04-28 20:18:10,923][INFO ][plugins                  ] [Junta] loaded [], sites []
+[2014-04-28 20:18:20,376][INFO ][node                     ] [Junta] initialized
+[2014-04-28 20:18:20,377][INFO ][node                     ] [Junta] starting ...
+[2014-04-28 20:18:20,848][INFO ][transport                ] [Junta] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.42.128:9300]}
+[2014-04-28 20:18:23,962][INFO ][cluster.service          ] [Junta] new_master [Junta][Zw9aecn7SHG1BT5Mp7x-Mw][ubuntu][inet[/192.168.42.128:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-28 20:18:24,120][INFO ][discovery                ] [Junta] elasticsearch/Zw9aecn7SHG1BT5Mp7x-Mw
+[2014-04-28 20:18:24,209][INFO ][http                     ] [Junta] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.42.128:9200]}
+[2014-04-28 20:18:24,269][INFO ][gateway                  ] [Junta] recovered [0] indices into cluster_state
+[2014-04-28 20:18:24,273][INFO ][node                     ] [Junta] started
+[2014-04-28 21:46:10,390][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-28 21:46:10,877][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] update_mapping [thread] (dynamic)
+[2014-04-28 21:46:10,922][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] update_mapping [cpu] (dynamic)
+[2014-04-28 21:46:10,932][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] update_mapping [memory] (dynamic)
+[2014-04-28 21:46:10,950][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] update_mapping [io] (dynamic)
+[2014-04-28 21:46:35,607][INFO ][cluster.metadata         ] [Junta] [logstash-2014.04.29] update_mapping [io] (dynamic)
+[2014-04-28 23:32:21,508][INFO ][node                     ] [Junta] stopping ...
+[2014-04-28 23:32:21,614][INFO ][node                     ] [Junta] stopped
+[2014-04-28 23:32:21,614][INFO ][node                     ] [Junta] closing ...
+[2014-04-28 23:32:21,627][INFO ][node                     ] [Junta] closed
+[2014-04-28 23:34:30,359][INFO ][node                     ] [Agent X] version[1.1.1], pid[5541], build[f1585f0/2014-04-16T14:27:12Z]
+[2014-04-28 23:34:30,359][INFO ][node                     ] [Agent X] initializing ...
+[2014-04-28 23:34:30,380][INFO ][plugins                  ] [Agent X] loaded [], sites []
+[2014-04-28 23:34:33,500][INFO ][node                     ] [Agent X] initialized
+[2014-04-28 23:34:33,500][INFO ][node                     ] [Agent X] starting ...
+[2014-04-28 23:34:33,684][INFO ][transport                ] [Agent X] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.42.128:9300]}
+[2014-04-28 23:34:36,756][INFO ][cluster.service          ] [Agent X] new_master [Agent X][rk9fcpVkT_mwH2WUqcisgg][ubuntu][inet[/192.168.42.128:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-28 23:34:36,824][INFO ][discovery                ] [Agent X] elasticsearch/rk9fcpVkT_mwH2WUqcisgg
+[2014-04-28 23:34:36,852][INFO ][http                     ] [Agent X] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.42.128:9200]}
+[2014-04-28 23:34:37,604][INFO ][gateway                  ] [Agent X] recovered [1] indices into cluster_state
+[2014-04-28 23:34:37,605][INFO ][node                     ] [Agent X] started
+[2014-04-28 23:43:18,825][INFO ][node                     ] [Agent X] stopping ...
+[2014-04-28 23:43:18,915][INFO ][node                     ] [Agent X] stopped
+[2014-04-28 23:43:18,915][INFO ][node                     ] [Agent X] closing ...
+[2014-04-28 23:43:18,921][INFO ][node                     ] [Agent X] closed
+[2014-04-28 23:44:21,948][INFO ][node                     ] [Mercurio] version[1.1.1], pid[8175], build[f1585f0/2014-04-16T14:27:12Z]
+[2014-04-28 23:44:21,949][INFO ][node                     ] [Mercurio] initializing ...
+[2014-04-28 23:44:21,971][INFO ][plugins                  ] [Mercurio] loaded [], sites []
+[2014-04-28 23:44:24,741][INFO ][node                     ] [Mercurio] initialized
+[2014-04-28 23:44:24,743][INFO ][node                     ] [Mercurio] starting ...
+[2014-04-28 23:44:24,891][INFO ][transport                ] [Mercurio] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.42.128:9300]}
+[2014-04-28 23:44:27,961][INFO ][cluster.service          ] [Mercurio] new_master [Mercurio][bubwzMImSUWrkWCsLKLDJg][ubuntu][inet[/192.168.42.128:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-28 23:44:28,027][INFO ][discovery                ] [Mercurio] elasticsearch/bubwzMImSUWrkWCsLKLDJg
+[2014-04-28 23:44:28,068][INFO ][http                     ] [Mercurio] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.42.128:9200]}
+[2014-04-28 23:44:28,735][INFO ][gateway                  ] [Mercurio] recovered [1] indices into cluster_state
+[2014-04-28 23:44:28,738][INFO ][node                     ] [Mercurio] started
+[2014-04-28 23:45:31,957][INFO ][cluster.metadata         ] [Mercurio] [logstash-2014.04.29] deleting index
+[2014-04-28 23:45:37,966][INFO ][node                     ] [Mercurio] stopping ...
+[2014-04-28 23:45:38,014][INFO ][node                     ] [Mercurio] stopped
+[2014-04-28 23:45:38,014][INFO ][node                     ] [Mercurio] closing ...
+[2014-04-28 23:45:38,020][INFO ][node                     ] [Mercurio] closed
